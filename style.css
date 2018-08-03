@@ -1,0 +1,35 @@
+
+
+#root {
+  position: relative;
+}
+
+#reviews {
+  display: inline-block;
+}
+
+/* .reviews-viewed-data{
+  display: flex;
+} */
+
+.viewed-data {
+  display: inline-block;
+}
+
+#reviews {
+  display: flex;
+  float: left;
+  width: 40.5%;
+}
+
+.viewed-data {
+  display: flex;
+  float: left;
+  width: 59.5%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
