@@ -1,0 +1,39 @@
+{
+  "name": "proxy-todd",
+  "version": "1.0.0",
+  "description": "Proxy server composing each members module onto a single page",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "webpack -w --config webpack.config.js",
+    "start": "nodemon /server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targaryen-yelp/proxy-todd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/targaryen-yelp/proxy-todd/issues"
+  },
+  "homepage": "https://github.com/targaryen-yelp/proxy-todd#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "request": "^2.87.0",
+    "require": "^2.4.20",
+    "styled-components": "^3.4.0",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.1.3"
+  }
+}
